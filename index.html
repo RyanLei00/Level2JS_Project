@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="initialize();">
+    <h1>Level 2 Match Game</h1>
+    <h2>Instructions:</h2>
+    <p>
+        In this game, you will have to find two images that match. Click each ? the image underneath. As you find matches, those images will be revealed
+        The computer is keeping track of the number of times you click and judging your every move. You can click the reset button to restart the game 
+        but the images will change.
+    </p>
+
+    <div id="grid">
+        <img src="images/9.png" id="image1" onclick="selectCard(0);">
+        <img src="images/9.png" id="image2" onclick="selectCard(1);">
+        <img src="images/9.png" id="image3" onclick="selectCard(2);">
+        <img src="images/9.png" id="image4" onclick="selectCard(3);">
+        <img src="images/9.png" id="image5" onclick="selectCard(4);">
+        <img src="images/9.png" id="image6" onclick="selectCard(5);">
+        <img src="images/9.png" id="image7" onclick="selectCard(6);">
+        <img src="images/9.png" id="image8" onclick="selectCard(7);">
+        <img src="images/9.png" id="image9" onclick="selectCard(8);">
+        <img src="images/9.png" id="image10" onclick="selectCard(9);">
+        <img src="images/9.png" id="image11" onclick="selectCard(10);">
+        <img src="images/9.png" id="image12" onclick="selectCard(11);">
+        <img src="images/9.png" id="image13" onclick="selectCard(12);">
+        <img src="images/9.png" id="image14" onclick="selectCard(13);">
+        <img src="images/9.png" id="image15" onclick="selectCard(14);">
+        <img src="images/9.png" id="image16" onclick="selectCard(15);">
+    </div>
+
+    <h2 id="score">Score: 0</h2>
+    <button onclick="resetScore();">Reset</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
